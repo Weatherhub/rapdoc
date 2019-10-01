@@ -1,6 +1,9 @@
 ecFlow系统设置
 ==============
 
+ecFlow的启动
+------------
+
 .. code-block:: bash
 
   $ cd ~/rap/course
@@ -19,7 +22,7 @@ ecFlow系统设置
   $ ping server(localhost:3141) succeeded in 00:00:00.003079  ~3 milliseconds
 
 RAP作业集的生成
-==============
+--------------
 
 以下是如何产生RAP的作业集供ecFlow调用：
 
