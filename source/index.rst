@@ -10,6 +10,8 @@
    :maxdepth: 2
    :caption: Contents:
 
+   background/index
+   installation/index
    operation/index
 
 Indices and tables
