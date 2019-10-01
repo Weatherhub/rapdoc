@@ -10,10 +10,7 @@
    :maxdepth: 2
    :caption: Contents:
 
-   operation
-   time_stamp
-   ecflow
-   system_startup
+   operation/index
 
 Indices and tables
 ==================
