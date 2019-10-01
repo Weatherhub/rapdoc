@@ -10,6 +10,7 @@
    :maxdepth: 2
    :caption: Contents:
 
+   time_stamp
    ecflow
 
 Indices and tables
