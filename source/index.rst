@@ -12,6 +12,7 @@
 
    time_stamp
    ecflow
+   system_startup
 
 Indices and tables
 ==================
