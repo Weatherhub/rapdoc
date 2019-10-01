@@ -29,5 +29,5 @@ RAP作业集的生成
   $ rm -fr operation_suite_v4
   $ ./operation.v4.py
  
- 其产生的`rap_fcyc_v4.def`为整个作业集的`ecFlow`描述
+其产生的rap_fcyc_v4.def为整个作业集的ecFlows描述
 
