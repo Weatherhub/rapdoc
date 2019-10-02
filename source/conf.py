@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'快速循环更新同化预报系统'
+project = u'快速更新循环同化预报系统'
 copyright = u'2016–2019, 北京朗润知天科技有限公司'
 author = u'Xin Zhang'
 
