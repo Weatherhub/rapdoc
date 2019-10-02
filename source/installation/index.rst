@@ -5,4 +5,7 @@
 .. toctree::
    :titlesonly:
 
-   env 
+   env
+   gempak
+   ecflow
+   decoders
