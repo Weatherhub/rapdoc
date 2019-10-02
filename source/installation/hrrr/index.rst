@@ -7,5 +7,6 @@ HRRR安装
    wrf
    wps
    gsi
+   wrfpost
    utils
 
