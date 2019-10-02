@@ -7,6 +7,7 @@ RAP安装
    wrf
    wps
    gsi
+   wrfpost
    rap_utils
    utils
 

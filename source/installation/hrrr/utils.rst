@@ -32,7 +32,7 @@ Compile HRRR wrfbufr
     $ cp hrrr_wrfbufr ../../exec/hrrr_wrfbufr
 
 Compile HRRR process_cloud
------------------------
+----------------------------
 
 .. code-block:: bash
 
@@ -42,7 +42,7 @@ Compile HRRR process_cloud
     $ cp hrrr_process_cloud ../../exec/hrrr_process_cloud
 
 Compile HRRR process_mosaic
------------------------
+----------------------------
 
 .. code-block:: bash
 
