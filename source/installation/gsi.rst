@@ -1,4 +1,4 @@
-安装rap-gsi
+安装rap gsi
 ===========
 
         cd ~/rap/nwprod/rap.v2.0.11/sorc/rap_gsi.fd
