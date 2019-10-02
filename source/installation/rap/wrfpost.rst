@@ -5,7 +5,7 @@
 
         $ cd ~/rap/nwprod/rap.v2.0.11/sorc/rap_wrfpost.fd
         # edit makefile for correct paths
-		$ make clean
+        $ make clean
         $ cd xml
         $ make clean
         $ make
