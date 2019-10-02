@@ -8,3 +8,4 @@ RAP安装手册
    gempak
    ecflow
    decoders
+   hrrr/index
