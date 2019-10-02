@@ -1,4 +1,4 @@
-HRRR安装手册
+RAP安装手册
 ###########
 
 .. toctree::
@@ -7,5 +7,6 @@ HRRR安装手册
    wrf
    wps
    gsi
+   rap_utils
    utils
 

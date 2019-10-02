@@ -8,4 +8,7 @@
    gempak
    ecflow
    decoders
+   libs
+   obsproc
+   rap/index
    hrrr/index
