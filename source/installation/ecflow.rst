@@ -1,5 +1,5 @@
-ecflow的安装
-============
+安装ecflow
+==========
 
 从 ecFlow_ 的官网下载 ``boost_1_53_0.tar.gz`` 和 ``ecFlow-4.0.9-Source.tar.gz``
 
