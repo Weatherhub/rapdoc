@@ -22,11 +22,10 @@
  
 这样一来经过Schur项的背景场误差协方差矩阵局地化空间分析（Covariance Localization），目标泛函的收敛方程及变为：
  
- .. _label:
  .. figure:: ../images/EnKF-3DVar.png
     :align: center
  
-:numref:`label` is EnKF-3DVar Hybrid 混合数据同化示意图
+EnKF-3DVar Hybrid 混合数据同化示意图
 
 本项目混合同化部分，将选用美国NCEP的业务数据同化模式GSI，主要考虑的是以下几个因素
   * GSI是美国海洋大气局NOAA当前稳定运行的先进业务模式，性能稳定，效果经得起考验;
