@@ -117,7 +117,7 @@ Compile g2
 .. code-block:: bash
 
         $ cd ~/ rap/nwprod/lib/sorc/g2_v2.5.0
-        $ edit makefile_4 and makefile_d for correct paths
+        # edit makefile_4 and makefile_d for correct paths
         $ make –f makefile_4
         $ make –f makefile_d
 

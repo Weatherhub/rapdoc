@@ -1,19 +1,21 @@
 安装rap wps
 ============
 
-        cd ~/rap/nwprod/rap.v2.0.11/sorc/rap_wrf.fd/WPSV3.4.1
-		./clean -a
-        configure
-        select '19'
+.. code-block:: bash
 
-        Please change the configure.wps  to:
+        $ cd ~/rap/nwprod/rap.v2.0.11/sorc/rap_wrf.fd/WPSV3.4.1
+		$ ./clean -a
+        $ configure
+        # select '19'
 
-        WRF_DIR                 =       ../WRFV3.4.1
+        # Please change the configure.wps  to:
 
-        COMPRESSION_LIBS    = -L/home/zx/rap/nwprod/gempak/NAWIPS/os/linux64/lib -ljasper -lpng -lz
-
-        COMPRESSION_INC     = -I/home/zx/rap/nwprod/gempak/NAWIPS/os/linux64/include
-
-        ./compile
-        cp metgrid/src/metgrid.exe ../../../exec/rap_metgrid
-        cp ungrib/src/ungrib.exe ../../../exec/rap_ungrib
+        # WRF_DIR                 =       ../WRFV3.4.1
+ 
+        # COMPRESSION_LIBS    = -L/home/zx/rap/nwprod/gempak/NAWIPS/os/linux64/lib -ljasper -lpng -lz
+ 
+        # COMPRESSION_INC     = -I/home/zx/rap/nwprod/gempak/NAWIPS/os/linux64/include
+ 
+        $ ./compile
+        $ cp metgrid/src/metgrid.exe ../../../exec/rap_metgrid
+        $ cp ungrib/src/ungrib.exe ../../../exec/rap_ungrib
