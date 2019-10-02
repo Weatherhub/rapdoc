@@ -7,10 +7,10 @@ GFS资料的准备
 
 为了可以在RAP系统中使用，必须做以下操作:
 
-.. prompt:: bash
+.. code-block:: bash
 
-    cd ~/rap/com
-    mkdir gfs
-    cd gfs
-    ln -fs /g2/home/fjwrf/testbed/data/input/GFS0p5 prod
+    $ cd ~/rap/com
+    $ mkdir gfs
+    $ cd gfs
+    $ ln -fs /g2/home/fjwrf/testbed/data/input/GFS0p5 prod
 
