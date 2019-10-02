@@ -8,7 +8,7 @@
    time_stamp
    ecflow
    system_startup
-   GSF
+   GFS
    sst
    snowice
    cleanup
