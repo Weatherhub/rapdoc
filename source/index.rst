@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-快速循环更新同化系统
+快速更新循环同化系统
 =================
 
 .. toctree::
