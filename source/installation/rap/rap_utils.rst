@@ -1,5 +1,5 @@
 安装rap工具
-===========
+=====================
 
 compile bufr_avgdata
 -----------------------
@@ -88,7 +88,7 @@ compile data_process
         # edit configure.process for correct paths
 
 Compile rap_full_cycle_surface
------------------------
+---------------------------------
 
 .. code-block:: bash
 
