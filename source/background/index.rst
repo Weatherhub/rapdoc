@@ -5,4 +5,6 @@
 .. toctree::
    :titlesonly:
 
+   intro
+   history
    keys
