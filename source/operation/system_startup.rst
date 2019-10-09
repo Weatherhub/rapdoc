@@ -22,7 +22,7 @@
   $ ecflowview&
   
 .. figure:: ../images/ecflowview-load.JPG
-   :scale: 60%
+   :scale: 40%
    :align: center
    :alt:  ecflowview截图
      
@@ -38,7 +38,7 @@
 ecflowview中的任务图标会变成蓝色
 
 .. figure:: ../images/ecflowview-begin.JPG
-   :scale: 60%
+   :scale: 40%
    :align: center
    :alt:  ecflowview suite开始截图
      
