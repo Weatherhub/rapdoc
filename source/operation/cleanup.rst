@@ -5,18 +5,24 @@
 
 .. code-block:: bash
 
-    $ cat /g2/home/PANN/rap/crl_scripts/clean.ksh
+    $ cat /sya/u/gongying/LongRun/course/clean.ksh
     #!/bin/ksh -x
-    #cd $HOME/rap/com/hrrr ; /bin/find . -type d -ctime +2 -exec /bin/rm -fr {} \;
-    cd $HOME/rap/com/rap ;  /bin/find . -type d -ctime +3 -exec /bin/rm -fr {} \;
-    #cd $HOME/rap/com/gfs/prod ;  /bin/find . -type d -ctime +3 -exec /bin/rm -fr {} \;
-    cd $HOME/rap/com/output ; /bin/find . -type f -mtime +2 -exec /bin/rm -fr {} \;
-    cd $HOME/rap/com/logs ; /bin/find . -type f -mtime +2 -exec /bin/rm -fr {} \;
-    cd $HOME/rap/nwges ; /bin/find . -type f -mtime +2 -exec /bin/rm -f {} \;
-    cd $HOME/rap/tmpnwprd1 ; /bin/find . -type f -mtime +2 -exec /bin/rm -f {} \;
+    #cd ${HOME}/LongRun/com/hrrr ; /bin/find . -type d -ctime +2 -exec /bin/rm -fr {} \;
+    #cd ${HOME}/LongRun/com/rap ;  /bin/find . -type d -ctime +2 -exec /bin/rm -fr {} \;
+    #cd ${HOME}/LongRun/com/gfs/prod ;  /bin/find . -type d -ctime +2 -exec /bin/rm -fr {} \;
+    cd ${HOME}/LongRun/com/output ; /bin/find . -type f -mtime +2 -exec /bin/rm -fr {} \;
+    cd ${HOME}/LongRun/com/logs ; /bin/find . -type f -mtime +1 -exec /bin/rm -fr {} \;
+    cd ${HOME}/LongRun/nwges ; /bin/find . -type f -mtime +1 -exec /bin/rm -f {} \;
+    #cd ${HOME}/LongRun/tmpnwprd1 ; /bin/find . -type f -mtime +1 -exec /bin/rm -f {} \;
+    nice find ${HOME}/LongRun/com/output/prod/today -type f -mtime +1 -exec  rm -fr {} \; 1> /dev/null 2>&1
+    nice find ${HOME}/LongRun/com/rap/prod -type d -mtime +3 -exec rm -fr {} \; 1> /dev/null 2>&1
+    nice find  ${HOME}/LongRun/tmpnwprd1 -type d -mtime +1 -exec rm -fr {} \; 1> /dev/null 2>&1
+    nice find  $HOME/dmsg -type f -mtime +5 -exec rm -fr {} \; 1> /dev/null 2>&1
 
-在定时作业中加入，使用 ``crontab –e``:
+
+在定时作业中加入:
 
 .. code-block:: bash
 
-    00 * * * * /g2/home/PANN/rap/scripts/clean.ksh
+    $ crontab -l
+    0 0,12 * * * /sya/u/gongying/LongRun/course/clean.ksh
