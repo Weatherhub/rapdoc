@@ -34,6 +34,8 @@
 
   $ cd /sya/g2/gongying/LongRun/course
   $ ecflow_client --begin sy_nwp_rap
+  
+ecflowview中的任务图标会变成蓝色
 
 .. figure:: images/ecflowview-begin.png
    :scale: 60%
