@@ -3,7 +3,7 @@
 
 .. code-block:: bash
 
-  $ cd ~/rap/nwprod/gempak/NAWIPS
+  $ cd /sya/g2/gongying/LongRun/nwprod/gempak/NAWIPS
   $ edit Gemenviron.profile for correct paths
   $ . Gemenviron.profile
   $ make distclean 
