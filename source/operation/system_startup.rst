@@ -7,6 +7,7 @@
 
   $ mkdir –p /sya/g2/gongying/LongRun/com/output/prod/today
   $ mkdir –p /sya/g2/gongying/LongRun/com/logs/jlogfiles
+  $ mkdir -p /sya/u/gongying/LongRun/tmpnwprd1
 
 * 载入作业集:
 
