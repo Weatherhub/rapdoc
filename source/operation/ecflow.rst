@@ -45,7 +45,7 @@ ecFlow的启动
   ping server(sya05n01:2506) succeeded in 00:00:00.007362  ~7 milliseconds
 
 RAP作业集的生成
---------------
+---------------------
 
 以下是如何产生RAP的作业集供ecFlow调用：
 
@@ -56,3 +56,13 @@ RAP作业集的生成
   $ ./sy_nwp_rap_v201908.py
  
 其产生的 :code:`sy_nwp_rap_v201908.def` 为整个作业集的ecFlows描述
+
+重新更换已有的作业集
+----------------------------
+
+.. code-block:: bash
+
+  $ ecflow_client --suites
+  sy_nwp_rap
+  
+  $ ecflow_client --replace=/sy_nwp_rap sy_nwp_rap_v201908.def false force
