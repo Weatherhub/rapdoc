@@ -13,10 +13,3 @@
    background/index
    installation/index
    operation/index
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
