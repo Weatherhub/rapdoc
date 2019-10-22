@@ -12,3 +12,4 @@
    sst
    snowice
    cleanup
+   prdgen
